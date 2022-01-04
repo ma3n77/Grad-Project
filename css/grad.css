@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.l-main {
+    width: 60px;
+    height: 100%;
+}
+
+.school-name {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7px;
+}
+
+.school-name-title {
+    color: orangered;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.school-name-desc {
+    color: darkgrey;
+    opacity: 85%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.quick-links {
+    display: flex;
+    list-style: none;
+}
+
+.ul-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    background-color: green;
+    height: 60px;
+    color: white;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    text-transform: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 5px;
+}
+
+a:hover {
+    cursor: pointer;
+    border-bottom: orangered solid 3px;
+}
+
+.container {
+    position: relative;
+}
+
+.img {
+    height: 500px;
+    width: 900px;
+    display: block;
+    margin-left: 250px;
+    margin-top: 70px;
+    border-radius: 8px;
+}
+
+.over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 750px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    transition-duration: 0.7s;
+    width: 900px;
+    margin-left: 250px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 45px;
+    margin-top: 0.25em;
+}
+
+.desc {
+    font-size: 25px;
+}
+
+.over:hover {
+    opacity: 100%;
+    margin-left: 250px;
+    width: 900px;
+}
+
+.log-btn {
+    text-align: center;
+    width: 220px;
+    height: 35px;
+    margin-left: 600px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: black solid 4px;
+    border-radius: 3px;
+    color: green;
+    transition-duration: 0.4s;
+}
+
+.btn {
+    text-transform: none;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.log-btn:hover {
+    cursor: pointer;
+    border-radius: 5px;
+    color: black;
+    border-color: orangered;
+}
+
+.hide {
+    opacity: 0%;
+}
